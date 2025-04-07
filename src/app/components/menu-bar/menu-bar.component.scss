@@ -1,4 +1,7 @@
 .container__menu-bar {
+  display: flex;
+  flex-direction: row;
+
   ul {
     display: flex;
     flex-direction: row;
