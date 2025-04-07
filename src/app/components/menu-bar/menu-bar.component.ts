@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Theme} from '../../../service/theme/theme.service';
 
 @Component({
     selector: 'app-menu-bar',
@@ -8,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private themeService: Theme) { }
 
   ngOnInit(): void {
   }
 
+  toggleTheme() {
+    this.themeService.toggleTheme();
+  }
 }
