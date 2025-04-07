@@ -9,6 +9,13 @@
     /* Estilos específicos para o wrapper do título, se necessário */
   }
 
+  .logo{
+    img{
+      margin-left: 10px;
+      border-radius: 50%;
+    }
+  }
+
   h1 {
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
